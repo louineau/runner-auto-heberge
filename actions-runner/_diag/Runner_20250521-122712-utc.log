@@ -170,3 +170,17 @@
 [2025-05-21 12:32:16Z INFO CredentialManager] Creating type OAuth
 [2025-05-21 12:32:16Z INFO CredentialManager] Creating credential type: OAuth
 [2025-05-21 12:32:16Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\noahl\Desktop\tp\tp5\runner-auto-heberge\actions-runner\.credentials_rsaparams
+[2025-05-21 12:33:07Z INFO ConfigurationStore] HasCredentials()
+[2025-05-21 12:33:07Z INFO ConfigurationStore] stored False
+[2025-05-21 12:33:07Z ERR  MessageListener] Catch exception during get next message.
+[2025-05-21 12:33:07Z ERR  MessageListener] System.InvalidOperationException: Credentials not stored. Must reconfigure.
+   at GitHub.Runner.Listener.Configuration.CredentialManager.LoadCredentials(Boolean allowAuthUrlV2)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2025-05-21 12:33:07Z INFO MessageListener] Retriable exception: Credentials not stored. Must reconfigure.
+[2025-05-21 12:33:07Z ERR  Terminal] WRITE ERROR: 2025-05-21 12:33:07Z: Runner connect error: Credentials not stored. Must reconfigure.. Retrying until reconnected.
+[2025-05-21 12:33:07Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2025-05-21 12:33:07Z INFO RunnerServer] EstablishVssConnection
+[2025-05-21 12:33:07Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-05-21 12:33:07Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-05-21 12:33:07Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-05-21 12:33:07Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
