@@ -1,23 +1,26 @@
-name: Test Runner GitHub
-
+name: Test Runner
 on: [push]
 
 jobs:
   run-test:
-    runs-on: ubuntu-latest  # Utilise un runner hébergé GitHub
-
+    runs-on: self-hosted
     steps:
-      - name: Checkout du code
-        uses: actions/checkout@v4
+      - name: Message de test
+        run: echo "Job exécuté depuis le runner auto-hébergé"
 
-      - name: Étape de test
+      - name: Installer tree
+        run: sudo apt update && sudo apt install -y tree
+
+      - name: Créer un fichier
         run: |
-          echo "✅ Test réussi sur un runner hébergé"
-          mkdir -p test-output
-          echo "Contenu du test" > test-output/output.txt
+          mkdir output
+          echo "Ceci est un fichier généré" > output/test.txt
 
-      - name: Upload du résultat
+      - name: Lister les fichiers
+        run: tree .
+
+      - name: Upload artefact
         uses: actions/upload-artifact@v3
         with:
-          name: test-result
-          path: test-output/output.txt
+          name: fichier-genere
+          path: output/test.txt
