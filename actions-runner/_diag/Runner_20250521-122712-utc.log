@@ -134,3 +134,15 @@
 [2025-05-21 12:27:14Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\noahl\Desktop\tp\tp5\runner-auto-heberge\actions-runner\.credentials_rsaparams
 [2025-05-21 12:27:14Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\noahl\Desktop\tp\tp5\runner-auto-heberge\actions-runner\.credentials_rsaparams
 [2025-05-21 12:27:14Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-21 12:28:05Z INFO ConfigurationStore] HasCredentials()
+[2025-05-21 12:28:05Z INFO ConfigurationStore] stored True
+[2025-05-21 12:28:05Z INFO CredentialManager] GetCredentialProvider
+[2025-05-21 12:28:05Z INFO CredentialManager] Creating type OAuth
+[2025-05-21 12:28:05Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-21 12:28:05Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\noahl\Desktop\tp\tp5\runner-auto-heberge\actions-runner\.credentials_rsaparams
+[2025-05-21 12:28:55Z INFO ConfigurationStore] HasCredentials()
+[2025-05-21 12:28:55Z INFO ConfigurationStore] stored True
+[2025-05-21 12:28:55Z INFO CredentialManager] GetCredentialProvider
+[2025-05-21 12:28:55Z INFO CredentialManager] Creating type OAuth
+[2025-05-21 12:28:55Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-21 12:28:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\noahl\Desktop\tp\tp5\runner-auto-heberge\actions-runner\.credentials_rsaparams
