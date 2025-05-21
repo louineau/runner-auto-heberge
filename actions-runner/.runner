@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 3,
+  "agentName": "TERA",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus25.actions.githubusercontent.com/fzlNuKH44pIKonlssTsHpOjB5Ga65jGyvczJWo41fAUsI71Y7q/",
+  "gitHubUrl": "https://github.com/louineau/runner-auto-heberge",
+  "workFolder": "_work"
+}
