@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Message de test
         run: echo "Job exécuté depuis le runner auto-hébergé"
-        
+
       - name: Installer tree
         run: sudo apt update && sudo apt install -y tree
 
@@ -20,7 +20,7 @@ jobs:
         run: tree .
 
       - name: Upload artefact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.3
         with:
           name: fichier-genere
           path: output/test.txt
