@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Message de test
-        run: echo "✅ Job exécuté depuis le runner Windows auto-hébergé"
+        run: echo "Job exécuté depuis le runner Windows auto-hébergé"
 
       - name: Créer un fichier
         run: |
